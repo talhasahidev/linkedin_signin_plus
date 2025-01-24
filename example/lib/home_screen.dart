@@ -11,9 +11,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final LinkedInConfig _linkedInConfig = LinkedInConfig(
-      clientId: '77h78sa9rr3z1j',
-      clientSecret: 'WPL_AP1.Z5ysCBDTlFWh2Fvn.bCQUlQ==',
-      redirectUrl: 'https://adspaper.online/api/auth/linkedin/callback');
+      clientId: 'YOUR_CLIENT_ID', // Replace with your LinkedIn client ID
+      clientSecret:
+          'YOUR_CLIENT_SECRET', // Replace with your LinkedIn client secret
+      redirectUrl:
+          'YOUR_REDIRECT_URL'); // Replace with your LinkedIn redirect URL
   @override
   Widget build(BuildContext context) {
     return Scaffold(
