@@ -1,7 +1,7 @@
 name: linkedin_signin_plus
-description: "A new Flutter package project."
+description: "A plugin that helps with the integration of LinkedIn sign-in effortlessly in your apps."
 version: 0.0.1
-homepage:
+homepage: https://github.com/talhasahidev/linkedin_signin_plus
 
 environment:
   sdk: ^3.5.3

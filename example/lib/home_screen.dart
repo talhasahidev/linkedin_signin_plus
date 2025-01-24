@@ -27,6 +27,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     inspect(user);
                   });
                 },
-                child: const Text('Signin with linkedin'))));
+                child: const Text('Signin with Linkedin'))));
   }
 }
